@@ -18,3 +18,8 @@ Start a repository/project:
 Viewing the changes that we made:
 	-git diff (hit q to exit, shows difference between working copy and repository)
 			  --staged (compare staged/added but no commit to repository)
+			  
+Branches: 
+	git checkout -b branchname (create a branch)
+				 -d branchname (delete a branch)
+				 branch (move to another branch)
