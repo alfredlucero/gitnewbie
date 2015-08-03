@@ -14,12 +14,14 @@ Start a repository/project:
 	- git rm filename.txt (removed from repository and working copy, then commit changes after)
 	- git mv oldname.txt newname.txt (rename), oldname.txt filedest
 	- git checkout -- filename.txt (take from repository and make it the working copy)
-				   commit# -- filename.txt 
+				   commit# -- filename.txt (or nothing for all the changes) -> git checkout -b branchname (retain old changes in branch)
+				   
 Viewing the changes that we made:
 	-git diff (hit q to exit, shows difference between working copy and repository)
 			  --staged (compare staged/added but no commit to repository)
 			  
 Branches: 
+	git branch (check which branch you're on)
 	git checkout -b branchname (create a branch)
-				 -d branchname (delete a branch)
+				 -d branchname (delete a local branch)
 				 branch (move to another branch)
