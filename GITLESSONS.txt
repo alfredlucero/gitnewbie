@@ -19,9 +19,24 @@ Start a repository/project:
 Viewing the changes that we made:
 	-git diff (hit q to exit, shows difference between working copy and repository)
 			  --staged (compare staged/added but no commit to repository)
-			  
+
 Branches: 
 	git branch (check which branch you're on)
 	git checkout -b branchname (create a branch)
 				 -d branchname (delete a local branch)
 				 branch (move to another branch)
+				 
+GITHUB:
+1. Creating a new repository on the command line
+	echo # gitnewbie >> README.md
+	git init
+	git add README.md
+	git commit -m "first commit"
+	git remote add origin https://github.com/alfredlucero/gitnewbie.git
+	git push -u origin master
+2. Pushing an existing repository from the command line (pushing to servers)
+	git remote add origin https://github.com/alfredlucero/gitnewbie.git
+	git push -u origin master
+	-> pushing changes to remote repository
+	
+fetching (retrieve from server)
