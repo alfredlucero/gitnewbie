@@ -35,8 +35,13 @@ GITHUB:
 	git remote add origin https://github.com/alfredlucero/gitnewbie.git
 	git push -u origin master
 2. Pushing an existing repository from the command line (pushing to servers)
+	// git remote (gives name of remote repo)
 	git remote add origin https://github.com/alfredlucero/gitnewbie.git
 	git push -u origin master
 	-> pushing changes to remote repository
-	
+	git commit -m "message"
+	git tag v1.0 (creates tag)
+	git push origin master (pushes files onto repo)
+	git push origin v1.0 (pushes tag)
+
 fetching (retrieve from server)
