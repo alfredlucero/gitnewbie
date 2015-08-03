@@ -1,7 +1,12 @@
 LEARN GIT:
 
+git status (check if any changes)
+git log (check all commit list)
+		--author="name" (shows commits only from this author)
+
 Start a repository/project:
 	- git init
 	- git add . (add all changes made to our project)
+			  filename.txt (add to stage area/purgatory) // working copy > staging area > repository
 	- git commit -m "first commit" (takes snapshot in point in time so we can go back to it)
 	
