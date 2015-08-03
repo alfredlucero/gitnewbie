@@ -1,0 +1,7 @@
+LEARN GIT:
+
+Start a repository/project:
+	- git init
+	- git add . (add all changes made to our project)
+	- git commit -m "first commit" (takes snapshot in point in time so we can go back to it)
+	
