@@ -5,8 +5,16 @@ git log (check all commit list)
 		--author="name" (shows commits only from this author)
 
 Start a repository/project:
-	- git init
+	- git init  (creates repository)
 	- git add . (add all changes made to our project)
 			  filename.txt (add to stage area/purgatory) // working copy > staging area > repository
+	- git reset HEAD filename.txt (removes from staging area)
 	- git commit -m "first commit" (takes snapshot in point in time so we can go back to it)
+				 -am "message" (adds and commits all edited files in working copy to repository already)
+	- git rm filename.txt (removed from repository and working copy, then commit changes after)
+	- git mv oldname.txt newname.txt (rename), oldname.txt filedest
+	- git checkout -- filename.txt (take from repository and make it the working copy)
 	
+Viewing the changes that we made:
+	-git diff (hit q to exit, shows difference between working copy and repository)
+			  --staged (compare staged/added but no commit to repository)
