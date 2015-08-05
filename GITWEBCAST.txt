@@ -14,4 +14,4 @@ Simply begin helping through forking then later ask authorization for help
 	  -> merge pull request to add changes onto your version
 	DIAGRAM:
 		clone the repos, make changes through your own branches, send pull requests, approve merge pull requests
-		
+		Start notepad++ GITWEBCAST.txt
